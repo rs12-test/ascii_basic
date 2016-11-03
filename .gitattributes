@@ -1,5 +1,7 @@
-.gitattributes git-encoding=ISO8859-1 working-tree-encoding=ISO8859-1
-.gitignore git-encoding=ISO8859-1 working-tree-encoding=ISO8859-1
+.gitattributes git-encoding=ISO8859-1 working-tree-encoding=ISO8859-1 export-ignore
+.gitignore git-encoding=ISO8859-1 working-tree-encoding=ISO8859-1 export-ignore
+*.zip export-ignore
+README.md export-ignore
 *ascii* git-encoding=ISO8859-1 working-tree-encoding=ISO8859-1
 *ebcdic* git-encoding=ISO8859-1 working-tree-encoding=IBM-1047
 *untag* git-encoding=ISO8859-1 working-tree-encoding=IBM-1047
